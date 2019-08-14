@@ -12,4 +12,6 @@ fun main(args: Array<String>) {
     var five:Char = '5';
     var sFive = five.toString();
     var lFive:Long = sFive.toByte().toShort().toInt().toDouble().toFloat().toLong();
+
+    var alphabet =  'z' downTo 'a'
 }
