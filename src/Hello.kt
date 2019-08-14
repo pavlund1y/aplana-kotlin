@@ -5,7 +5,7 @@ fun main(args: Array<String>) {
             + "\t- Say me, what is your name?\t\r\n\n");
 
     println("########################\n"
-            + "\t- HELLO ${readLine()}\n"
+            + "\t- HELLO ${readLine()!!}\n"
     )
 
 }
